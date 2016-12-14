@@ -1,0 +1,80 @@
+body {
+    background-color: lightgray;
+}
+.container {
+    padding-top: 0;
+    background-color: white;
+    max-width: 800px;
+}
+header > :first-child {
+    background-color: #777777;
+    color: white;
+    text-align: center;
+}
+header > div.col-md-3 {
+    max-width: 150px;
+}
+th {
+    background: lightgrey;
+}
+th,
+td {
+    text-align: center;
+    border-color: black;
+}
+header > div.table-responsive {
+    margin: 20px 0;
+}
+table.table {
+    margin: 0;
+}
+main {
+    padding: 20px 0;
+}
+div.wrapper {
+    padding: 0 15px 15px 15px;
+    border: 1px solid lightgrey;
+}
+#fragebogen {
+    background-color: #CCCCCC;
+}
+div#fragebogen >:first-child {
+    padding: 5px 20px;
+    font-weight: bold;
+}
+.ueberschrift {
+    margin: 20px 0;
+    font-size: 18px;
+}
+.row {
+    padding: 10px 0;
+}
+.empfehlung {
+    border: 1px solid lightgrey;
+    padding: 0;
+    margin-top: 10px;
+}
+div.empfehlung >:first-child {
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+div.empfehlung >:nth-child(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+div.empfehlung >:last-child {
+    padding: 0 10px 10px 10px;
+}
+.bold {
+    font-weight: bold;
+}
+textarea {
+    resize: none;
+}
+.animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
